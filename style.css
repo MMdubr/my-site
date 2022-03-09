@@ -7,7 +7,7 @@ body {
   background: url("rectangle.png");
 }
 
-first_screen {
+.first_screen {
   width: 100vw;
   height: 100vh;
  
