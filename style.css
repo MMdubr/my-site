@@ -4,15 +4,14 @@
 
 body {
   background-color: #242833;
-  background: url("../img/rectangle.png");
+  background: url("rectangle.png");
 }
 
 .first_screen {
   width: 100vw;
   height: 100vh;
-  
- }
-
+ 
+}
 .container {
 width: 1120px;
 margin: auto;
