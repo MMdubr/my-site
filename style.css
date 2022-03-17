@@ -4,30 +4,50 @@
 
 body {
   background-color: #242B33;
-  background: url("../img/rectangle.png");
+  
 }
 
 .header {
 width: 100vw;
 height: 100vh;
+ background: url("assets/img/rectangle.png");
 }
 
 .container {
-  width: 1200px;
-  margin: auto;
+max-width: 1110px;
+    margin: 0 auto;
+   
   }
+
+.logo p {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.12em;
+color: #FFFFFF;
+}
 
 .header__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .menu__wrapper {
   display: flex;
-}
+  }
 
 .menu {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 541px;
+  height: 16px;
+  left: 974px;
+  top: 55px;
   padding: 0;
   margin: 0 30px 0;
   list-style-type: none;
@@ -39,8 +59,11 @@ height: 100vh;
 }
 
 .menu__link {
+  font-family: Haleway;
   font-weight: bold;
   font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
   color:  #ffffff;
   text-decoration: none;
 }
