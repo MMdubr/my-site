@@ -203,6 +203,10 @@ color: #FFFFFF;
   margin-bottom: 20px;
 }
 
+.footer__address-text {
+   margin-bottom: 15px;
+}
+
 .socials {
   display: flex;
   justify-content: flex-start;
@@ -211,7 +215,7 @@ color: #FFFFFF;
 
 .socials__item {
   margin-right: 20px;
-}
+ }
 
 .socials__link:hover path {
   fill: #D4C17F;
