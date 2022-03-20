@@ -4,6 +4,7 @@
 
 body {
   background-color: #242B33;
+  color: #ffffff;
   
 }
 
@@ -14,10 +15,50 @@ height: 100vh;
 }
 
 .container {
-max-width: 1110px;
-    margin: 0 auto;
+max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
    
   }
+
+.headline {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #D4C17F;
+  margin-bottom: 30px;
+}
+
+.input {
+  display: block;
+  font-size: 14px;
+  line-height: 27px;
+  padding: 12px 20px;
+  max-width: 255px;
+   width: 100%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 0;
+}
+
+.input::placeholder {
+  color: #BEBEBE;
+}
+
+.btn {
+  display: block;
+  max-width: 255px;
+    font-weight: 700;
+    width: 100%;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #D4C17F;
+  padding: 12px 20px;
+  border: 0;
+}
 
 .logo p {
 font-family: 'Raleway';
@@ -54,7 +95,7 @@ color: #FFFFFF;
 }
 
 .menu__item {
-  margin-left: 20px;
+    margin-left: 20px;
   margin-right: 20px;
 }
 
@@ -75,6 +116,62 @@ color: #FFFFFF;
 
 .menu__link:focus {
   outline: 0;
+}
+
+/*Preview */
+
+.preview {
+  background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), 
+  linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), 
+  url(assets/img/bg.jpg);
+  padding: 180px 0;
+}
+
+.preview__inner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.preview__text {
+  flex-basis: 50%;
+   font-size: 16px;
+    line-height: 24px;
+    padding-right: 15px;
+
+}
+
+.preview__form {
+  flex-basis: 50%;
+  padding-left: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.preview__form > * {
+  flex-basis: 50%;
+}
+
+.preview__form > *:nth-child(2n){
+  padding-left: 15px;
+}
+
+.preview__form > *:nth-child(2n + 1){
+  padding-right: 15px;
+}
+
+
+.previer__label {
+  margin-bottom: 35px;
+}
+
+.preview__form-text {
+  text-align: center;
+    font-size: 13px;
+  line-height: 16px;
+  color: #E7E7E7;
 }
 
 .page-footer {
