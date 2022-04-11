@@ -73,25 +73,37 @@ body {
     font-weight: 700;
     font-size: 36px;
     color: #D4C17F;
-    margin-bottom: 30px;
     text-align: center;
+    margin-bottom: 30px;
     margin-top: 205px;
+   
 }
  
 
 .h1 {
+    
     font-family: 'Playfair Display';
     font-size: 48px;
     line-height: 64px;
-    text-align: center;
     color: #D4C17F;
     border: 1px solid #000000;
+    width: 100px;
+      height: 109px;
+      padding-top: 296px;
+    padding-left: 682px;
+    padding-right: 682px;
+    bottom: 435px;
+
+
 }
 
 .mouse {
     position:absolute;
     margin-top: 60px;
-    left: 656px;
+    left: 940px;
+    right: 940px;
+    top: 355px;
+    bottom: 95px;
     animation: move 4s ease-in-out infinite;
 }
 
@@ -228,10 +240,10 @@ body {
 
 .loft, 
 .loft_2 {
-  display: flex; 
-  justify-content: baseline;
-   align-items: flex-end;
-     font-family: 'Raleway';
+    display: flex; 
+    justify-content: baseline;
+    align-items: flex-end;
+    font-family: 'Raleway';
     font-size: 24px;
     line-height: 28px;
     color:# fff;
@@ -316,7 +328,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 275px;
+  padding-top: 275px;
+ 
 }
 
 .button::before {
@@ -325,6 +338,13 @@ body {
   width: ;
 }
 
+/* map */
+
+.map__district {
+   margin-top: 100px;
+   margin-left: 405px;
+   margin-bottom: 180px;
+}
 
 
 /* question */
