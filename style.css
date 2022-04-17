@@ -12,7 +12,8 @@ body {
 .first_screen {
    width: 100vw;
    height: 100vh;
-   background: url("assets/img/Recta.svg");
+   background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), 
+   url(assets/img/Recta.svg);
 }
 
 .container {
